@@ -1,0 +1,82 @@
+/* Dashboard theme colors */
+:root {
+    --nba-blue: #1d428a;
+    --nba-red: #c8102e;
+    --background: #f0f2f5;
+}
+
+/* Main body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
+/* Dashboard container */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--background);
+}
+
+/* Header styling */
+.dashboard-header {
+    color: var(--nba-blue);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* Dropdown container */
+.dropdown-container {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Graph containers */
+.graph-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* Dropdown styling */
+.Select-control {
+    border-color: #1d428a !important;
+}
+
+.Select-value-label {
+    color: #1d428a !important;
+}
+
+/* Graph title styling */
+.graph-title {
+    color: #1d428a;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Export button styling */
+.export-button {
+    background-color: var(--nba-blue);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.export-button:hover {
+    background-color: var(--nba-red);
+}
